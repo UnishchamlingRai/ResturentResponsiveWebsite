@@ -1,0 +1,98 @@
+.Lourel{
+    display:flex;
+    gap: 50px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/bg.png');
+}
+
+.laurel_spoon_logo{
+    position: absolute;
+    z-index: 20;
+    top: 40px;
+    left: 40px;
+    img{
+        height: 100px;
+        width: 100px;
+    }
+   
+   
+}
+.laurels_left{
+    flex: 2;
+   
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    h1{
+        font-size: 40px;
+    }
+}
+
+.laurels_awards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 20px;
+    p{
+        color: var(--color-golden);
+        font-size: 20px;
+    }
+}
+.laurels_head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.award_content{
+    display: flex;
+    gap: 20px;
+    width: 300px;
+   
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    img{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.lourel_right_fruit_photo{
+    flex: 1;
+   
+    img{
+        width: 395px;
+height: 492px;
+    }
+}
+
+
+ //Mobile Responsive
+ @media screen and (max-width: 1050px) {
+    .Lourel{
+        flex-direction: column;
+    }
+    .laurels_left{
+        margin-top: 120px;
+    }
+    .lourel_right_fruit_photo{
+        align-self:flex-start;
+    }
+   
+      
+    }
+    
+    @media screen and (max-width: 700px) {
+        .lourel_right_fruit_photo{           
+            img{
+                width: 295px;
+        height: 392px;
+            }
+        }
+    }
+    

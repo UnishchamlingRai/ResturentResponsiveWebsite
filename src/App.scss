@@ -1,0 +1,71 @@
+
+.commonBtn{
+padding: 8px 32px;
+width: 157px;
+height: 44px;
+background: #DCCA87;
+border: none;
+}
+.spoon{
+    width: 30px;
+    height: 6px;
+}
+.commonPTag{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 175%;
+// text-align: right;
+letter-spacing: 0.04em;
+color: #AAAAAA;
+}
+.commonHTag{
+
+font-family: 'Cormorant Upright';
+font-weight: 600;
+font-size: 54px;
+line-height: 100%;
+// text-align: right;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #DCCA87;
+}
+.unversal_Padding{
+    padding:10%;
+
+}
+.bg_img{
+    background: url('./assets/bg.png');
+}
+
+.commonLetter{
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    
+            }
+
+.sign{
+width: 235px;
+height: 83px;
+font-weight: 400;
+font-size: 64px;
+line-height: 130%;
+
+
+letter-spacing: 0.04em;
+color: #AAAAAA;
+
+}
+
+.flex_direction_coloum{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+

@@ -1,0 +1,130 @@
+.Footer {
+  padding: 0% 10%;
+  gap: 50px;
+   background-image: url('./assets/bg.png');
+  
+}
+
+.Footer_subscribe {
+  border: 1px solid var(--color-golden);
+  outline: none;
+  background-color: var(--color-black);
+  padding: 40px;
+  align-items: center;
+  .footer_head {
+    align-items: center;
+  }
+}
+.footer_input {
+  display: flex;
+  gap: 40px;
+  input {
+    width: 300px;
+    background-color: var(--color-black);
+    padding: 15px;
+    border: 1px solid var(--color-golden);
+  }
+  input[type="email"]::placeholder {
+    color: white;
+  }
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_bottom_conatactUs {
+  gap: 20px;
+  align-items: center;
+
+  .number {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer_bottom_gericht {
+  
+  align-items: center;
+  justify-content: center;
+  color: var(--color-golden);
+  .spoon {
+    width: 30px;
+    height: 6px;
+  }
+  img {
+    width: 189px;
+    height: 63px;
+  }
+  p {
+    text-align: center;
+  }
+
+  .social_icon {
+    display: flex;
+    gap: 10px;
+
+    li {
+      list-style: none;
+      color: white;
+      font-size: 20px;
+    }
+  }
+}
+
+.footer_bottom_workingHour {
+  gap: 20px;
+  align-items: center;
+  p {
+    text-align: center;
+  }
+}
+.footer_copyRight {
+  p {
+    text-align: center;
+   
+  }
+}
+
+
+//Mobile Responsive
+@media screen and (max-width: 1050px) {
+    .Footer_subscribe{
+        // width: 500px;
+        // display: none;
+        h1{
+            font-size: 30px;
+        }
+    }
+    .footer_input{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_bottom{
+        flex-direction: column;
+        gap: 80px;
+    }
+    .footer_copyRight {
+        p {
+          margin-left:0px;
+        }
+      }
+   
+  }
+  
+  @media screen and (max-width: 700px) {
+.footer_input {
+
+    input{
+        width: 200px;
+    }
+}
+   
+  
+  }
+  
+  @media screen and (max-width: 550px) {
+  }

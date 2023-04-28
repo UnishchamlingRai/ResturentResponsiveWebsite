@@ -1,0 +1,118 @@
+.blog {
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  color: white;
+}
+.blog_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  h1 {
+    margin: 10px;
+  }
+}
+.blog_troffe_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.troffe_info {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  h1 {
+    color: white;
+    align-self: center;
+    font-size: 30px;
+  }
+  .price {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    .price_content {
+      display: flex;
+      align-items: center;
+      width: 300px;
+      justify-content: space-between;
+      .line_content {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .line {
+      background: #fafafa;
+      width: 100px;
+      height: 1px;
+    }
+
+    div {
+      p {
+        font-size: 16px;
+        color: var(--color-golden);
+      }
+      span {
+        font-family: "Open Sans";
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 175%;
+        text-align: center;
+        letter-spacing: 0.04em;
+
+        /* AAAAAA */
+
+        color: #aaaaaa;
+      }
+    }
+  }
+}
+
+.trofee_img {
+  img {
+    width: 344px;
+    height: 559px;
+  }
+  margin: 0px 20px;
+}
+
+  //Mobile Responsive
+@media screen and (max-width: 1050px) {
+    .blog{
+        gap: 50px;
+        align-items: start;
+    }
+   .blog_troffe_content{
+   flex-direction: column;
+   gap: 60px;
+   }
+      
+    }
+    
+    @media screen and (max-width: 700px) {
+        .blog_head{
+            h1{
+                font-size: 40px;
+            }
+        }
+        .trofee_img {
+            img {
+              width: 244px;
+              height: 459px;
+            }
+           
+          }
+     
+     
+    }
+    
+    

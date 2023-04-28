@@ -1,0 +1,76 @@
+.belive{
+    display: flex;
+    gap: 80px;
+    background-image: url('./assets/bg.png');
+}
+.belive_chef{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.belive_left_photo{
+  
+    img{
+        width: 500px;
+height: 598px;
+    }
+}
+.belive_kevin{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.belive_right_content{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+   
+}
+
+//Mobile Responsive
+@media screen and (max-width: 1050px) {
+    .belive{
+        flex-direction: column;
+        
+    }
+    .belive_left_photo{
+        
+        img{
+            width: 500px;
+    height: 598px;
+        }
+    }
+    .belive_paragraph{
+        p{
+            width: 500px;
+        }
+    }
+      
+    }
+    
+    @media screen and (max-width: 700px) {
+        .belive_left_photo{
+        
+            img{
+                width: 300px;
+        height: 398px;
+            }
+        }
+        .belive_paragraph{
+            p{
+                width: 300px;
+            }
+        }
+        .belive_chef{
+            h1{
+                font-size: 30px;
+            }
+        }
+       
+     
+     
+    }
+    
+    @media screen and (max-width: 550px) {}
